@@ -62,3 +62,4 @@ class Agent:
     @property
     def state(self) -> AgentState | None:
         return self._state
+
