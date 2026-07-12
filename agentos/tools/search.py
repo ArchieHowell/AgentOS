@@ -17,3 +17,4 @@ class SearchTool(BaseTool):
                                   metadata={"query": query, "total": data.get("total", 0)})
         except Exception as exc:
             return ToolResult(success=False, output=None, error=str(exc))
+
