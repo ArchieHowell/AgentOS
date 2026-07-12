@@ -31,3 +31,4 @@ class Coordinator:
     @property
     def active_count(self) -> int:
         return self.config.max_agents - self._semaphore._value
+
