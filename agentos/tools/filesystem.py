@@ -30,3 +30,4 @@ class FilesystemTool(BaseTool):
             return ToolResult(success=False, output=None, error=f"Unknown action: {action}")
         except Exception as exc:
             return ToolResult(success=False, output=None, error=str(exc))
+
