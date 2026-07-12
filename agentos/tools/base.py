@@ -39,3 +39,4 @@ class BaseTool(ABC):
                 await asyncio.sleep(self.config.tool_retry_base_delay * (2 ** attempt))
         return ToolResult(success=False, output=None, error="max retries exceeded")
 
+
