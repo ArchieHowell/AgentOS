@@ -21,3 +21,4 @@ async def test_runtime_run_goal(config):
     await rt.stop()
     assert isinstance(result, dict)
 
+
