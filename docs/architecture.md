@@ -37,3 +37,4 @@ The coordinator manages an agent pool bounded by `max_agents`. It exposes a type
 coordinator and await results without holding their concurrency slot.
 
 
+
